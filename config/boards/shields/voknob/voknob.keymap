@@ -49,15 +49,7 @@
             bindings = <
                 &kp C_MUTE  &finder_downloads  &finder_desktop  &finder_home
             >;
-            //sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN >;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
-    };
-    sensors {
-        compatible = "zmk,keymap-sensors";
-        sensor-bindings = <
-            // Binds the first encoder to Volume Up (clockwise) and Volume Down (counter-clockwise)
-            &inc_dec_kp C_VOL_UP C_VOL_DN
-            // Add more bindings here for additional encoders if necessary
-        >;
     };
 };
