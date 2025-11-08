@@ -47,7 +47,7 @@
 
         default_layer {
             bindings = <
-                &kp trans  &finder_downloads  &finder_desktop  &finder_home  //C_MUTE is not working. It overrides the twist
+                &trans  &finder_downloads  &finder_desktop  &finder_home  //C_MUTE is not working. It overrides the twist
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN >;  //<&inc_dec_kp UP DOWN>;
         };
