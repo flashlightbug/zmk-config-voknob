@@ -1,0 +1,6 @@
+if SHIELD_VOKNOB
+
+config ZMK_KEYBOARD_NAME
+    default "voknob"
+
+endif
