@@ -9,7 +9,7 @@
 
         default_layer {
             bindings = <
-                &kp C   //&kp C_MUTE is not working. It overrides the twist
+                &kp N9   //&kp C_MUTE is not working. It overrides the twist
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN >;
         };
