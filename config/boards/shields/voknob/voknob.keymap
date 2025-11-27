@@ -14,7 +14,7 @@
             >;
             sensor-bindings = <
                                &inc_dec_kp C_VOL_DN C_VOL_UP
-                               &inc_dec_kp C_RW C_FF
+                               &inc_dec_kp C_REWIND C_FAST_FORWARD
                                >;
         };
     };
