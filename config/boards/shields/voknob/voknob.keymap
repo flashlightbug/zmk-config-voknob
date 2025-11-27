@@ -13,7 +13,7 @@
                 &kp C_MUTE
             >;
             sensor-bindings = <
-                               &inc_dec_kp C_VOL_UP C_VOL_DN
+                               &inc_dec_kp C_VOL_DN C_VOL_UP
                                &inc_dec_kp C_FF C_RW
                                >;
         };
